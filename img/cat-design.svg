@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+    <defs>
+        <path id="a" d="M13 .444s-2-1-4 0-9 8.5-9 8.5 11 3.5 14 2.5 3-7 3-7l-4-4z"/>
+        <path id="c" d="M4 35.41s10-7 17.5-14.5 15-18 13.5-20.5-14.5 7-21 13.5-14 17.5-14 17.5l4 4z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#A4495E" d="M40.46 0h-5.92C4.934 0 0 7.122 0 15.909v43.182C0 67.878 4.934 75 34.54 75h5.92C70.066 75 75 67.878 75 59.091V15.909C75 7.122 70.066 0 40.46 0"/>
+        <g transform="translate(13 47)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="#E5B829" xlink:href="#a"/>
+            <path fill="#E4A232" d="M16.5 3.5s-4-1-6 0S3 10.944 3 10.944s11 3.5 14 2.5 3-7 3-7L16.5 3.5z" mask="url(#b)"/>
+        </g>
+        <g transform="translate(26 16)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <use fill="#5D768C" xlink:href="#c"/>
+            <path fill="#BFC8D1" d="M7 20.5l8 7.25L7 35l-8-7.5z" mask="url(#d)"/>
+            <path fill="#D2D9DF" d="M9.5 18l8 8-2.5 2-8-7.5L9.5 18zm-10 9l8 8L5 37l-8-7.5L-.5 27z" mask="url(#d)"/>
+            <path fill="#626262" d="M4 35.41c8.783-5.53 10-7 17.5-14.5S37 4 35 .41C31.5 4 23 11.254 16.5 17.754 10 24.255 1.5 33.5 1.5 33.5s1.283 2.676 2.5 1.91z" mask="url(#d)" style="mix-blend-mode:hard-light"/>
+        </g>
+    </g>
+</svg>

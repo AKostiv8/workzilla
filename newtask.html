@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--<link href="css/materialize.css" rel="stylesheet">-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fonts/MyriadPro-Regular.otf">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <nav class="BG">
+            <img src="img/pic-logo.svg" class="pic_logo">
+            <p class="layer"> / </p>
+            <p class="create">Создание задания</p>
+            <div class="language">
+                <p class="ENG">ENG</p>
+                <img src="img/usa-flag.svg" class="USA_flag">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="bg">
+            <figcaption class="type">Выберите категорию задания</figcaption>
+            <div class="barsPosition" id="new">
+                <div class="bar">
+                    <img src="img/cat-advertising.svg" class="cat_advertising">
+                    <p class="description">Реклама и соцсети</p>
+                </div>
+
+                <div class="bar">
+                    <img src="img/cat-simple-help.svg" class="cat_advertising">
+                    <p class="description">Простая помощь</p>
+                </div>
+
+                <div class="bar" onclick="myFunction()">
+                    <img src="img/cat-design.svg" class="cat_advertising">
+                    <p class="description">Дизайн</p>
+                </div>
+
+                <div class="bar axis" id="myP">
+                    <img src="img/cat-text.svg" class="cat_advertising">
+                    <p class="description">Тексты</p>
+                </div>
+
+                <div class="bar axis" id="myP1">
+                    <img src="img/cat-web-help.svg" class="cat_advertising">
+                    <p class="description">Помощь по сайту</p>
+                </div>
+
+                <div class="bar axis" id="myP2">
+                    <img src="img/cat-other.svg" class="cat_advertising">
+                    <p class="description">Другое</p>
+                </div>
+            </div>
+
+            <div id="subTabs">
+
+            </div>
+        </section>
+        <section class="taskdescription">
+            <figcaption>Описание задания</figcaption>
+        </section>
+
+
+        <script src="js/init.js">
+        </script>
+
+
+
+        <section class="time">
+            <figcaption>Время и стоимость</figcaption>
+        </section>
+
+        <section class="time">
+            <figcaption>Данные о себе</figcaption>
+        </section>
+        <aside></aside>
+
+
+    <footer>
+        <div class="progresssummery">
+            <div class="progressbar">
+                <div class="progressdarker"></div>
+            </div>
+            <p class="ready">Заполнено 30%</p>
+            <p class="taskeasy">Создать задачу быстро и просто</p>
+        </div>
+        <div class="next">
+            <button class="bt-next">Дальше</button>
+        </div>
+    </footer>
+</body>
+</html>

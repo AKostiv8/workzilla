@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#6B3B55" d="M40.46 0h-5.92C4.934 0 0 7.122 0 15.909v43.182C0 67.878 4.934 75 34.54 75h5.92C70.066 75 75 67.878 75 59.091V15.909C75 7.122 70.066 0 40.46 0"/>
+        <g transform="translate(12 12)">
+            <circle cx="25.5" cy="25.5" r="25.5" fill="#EDAB2C"/>
+            <circle cx="25.5" cy="25.5" r="21.5" fill="#B78732"/>
+            <circle cx="25.5" cy="25.5" r="19.5" fill="#FCF9F0"/>
+            <path fill="#1B1A19" d="M25 41h1v3h-1v-3zM10 25v1H7v-1h3zm34 0v1h-3v-1h3zM25 6h1v3h-1V6z"/>
+            <g stroke="#000" stroke-width=".5">
+                <path d="M35.5 9.5l-1 1.5M42 16l-1.5 1"/>
+            </g>
+            <g stroke="#000" stroke-width=".5">
+                <path d="M35.5 41.5l-1-1.5M42 35l-1.5-1"/>
+            </g>
+            <g stroke="#000" stroke-width=".5">
+                <path d="M16.5 9.5l1 1.5M10 16l1.5 1"/>
+            </g>
+            <g stroke="#000" stroke-width=".5">
+                <path d="M16.5 41.5l1-1.5M10 35l1.5-1"/>
+            </g>
+            <g transform="translate(15 18)">
+                <circle cx="10.5" cy="7.5" r="1.5" fill="#000"/>
+                <path stroke="#000" stroke-width=".5" d="M7.5 9L24 0M.5 1.5L13 9"/>
+            </g>
+        </g>
+    </g>
+</svg>
